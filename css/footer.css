@@ -1,4 +1,7 @@
 footer {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
   padding-bottom: 2em;
   background: #aa076b; /* fallback for old browsers */
   background: linear-gradient(
