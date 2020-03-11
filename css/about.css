@@ -2,7 +2,9 @@
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
-  @media only screen and (min-width: $cut) {
+}
+@media only screen and (max-width: 600px) {
+  #about {
     width: 80%;
   }
 }
@@ -18,10 +20,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  p {
-    font-size: 16px;
-  }
-  @media only screen and (min-width: $cut) {
+}
+p {
+  font-size: 16px;
+}
+@media only screen and (max-width: 600px) {
+  .user {
     flex-wrap: nowrap;
     font-size: 75px;
   }

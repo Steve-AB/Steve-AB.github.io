@@ -5,75 +5,70 @@
   width: 90%;
   max-width: 960px;
   margin: 0 auto;
-  @media only screen and (min-width: $cut) {
-    width: 80%;
+}
+ @media only screen and (max-width: 600px) {
+  #projects {
+  width: 80%;
   }
 }
-
 .user-projects {
   margin: 20px auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+h5 {
+  margin: 0;
+}
+li {
+  color: #000000;
+  font-size: 1.1rem;
+}
+p {
+  margin-right: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .contents {margin-left: 0;
+  width: 48%;
+  }
+}
+ @media only screen and (max-width: 600px) {
+  .contents-right {
+  float: right;
+  margin-top: -5%;
+  width: 48%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .images-right {
+  float: right;
+  width: 48%;
+  }
+}  
+@media only screen and (max-width: 600px) {
   img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  h5 {
-    margin: 0;
-  }
-  li {
-    color: $main;
-    font-size: 1.1rem;
-  }
-  p {
-    margin-right: 5px;
+  float: right;
   }
 }
-
-.contents {
-  @media only screen and (min-width: $cut) {
-    margin-left: 0;
-    width: 48%;
+@media only screen and (max-width: 600px) {
+  .images-left {
+  float: left;
+  width: 48%;
+}
+img {
+  @media only screen and (max-width: 600px) {
+  float: left;
   }
 }
-
-.contents-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    margin-top: -5%;
-    width: 48%;
-  }
-}
-.images-right {
-  @media only screen and (min-width: $cut) {
-    float: right;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: right;
-    }
-  }
-}
-
-.images-left {
-  @media only screen and (min-width: $cut) {
-    float: left;
-    width: 48%;
-  }
-  img {
-    @media only screen and (min-width: $cut) {
-      float: left;
-    }
-  }
-}
-
 .project-link {
   display: inline-block;
   margin: 10px 0px;
   padding: 5px;
-  color: $main;
+  color: #000000;
   background-color: transparent;
-  border: 1px solid $main;
+  border: 1px solid #000000;
   border-radius: 10px;
   text-align: center;
   outline: none;
@@ -82,20 +77,12 @@
   transition: color 0.3s ease-out,
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
-  &:hover {
-    background-color: $purple;
-    border-color: $purple;
-    color: #fff;
+}
+  .project-link :hover {
+    background-color: purple;
+    border-color: purple;
+    color: #ffffff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
-  }
-  &:active {
-    background-color: $purple;
-    border-color: $purple;
-    color: #fff;
-    transition: color 0.3s ease-in,
-                background-color 0.3s ease-in,
-                border-color 0.3s ease-in;
-  }
 }
