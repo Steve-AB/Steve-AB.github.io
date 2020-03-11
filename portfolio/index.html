@@ -3,12 +3,13 @@ layout: default
 title: Portfolio
 ---
 
-<div class="user-details">
+<div id="expertise">
   <h1>My Expertise</h1>
-  <p>{{site.user_description}}</p>
-</div>
-<div class="user">
-  <div class="tech">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum eget
+      diam ac tristique. Phasellus dignissim, elit ac tempus ultricies, nibh
+      diam porttitor arcu, non.</p>
+  <div class="user">
+   <div class="tech">
     <h2>Design</h2>
 
     <p>
@@ -17,7 +18,7 @@ title: Portfolio
       diam porttitor arcu, non.
     </p>
   </div>
-  <div class="tech">
+   <div class="tech">
     <h2>Code</h2>
 
     <p>
@@ -26,7 +27,7 @@ title: Portfolio
       diam porttitor arcu, non.
     </p>
   </div>
-  <div class="tech">
+   <div class="tech">
     <h2>Tools</h2>
 
     <p>
@@ -36,13 +37,11 @@ title: Portfolio
     </p>
   </div>
 </div>
-<div class="user-details">
+<div id="projects" class="user-details"> 
   <h1>Featured Projects</h1>
-</div>
-<div class="user-projects">
+ </div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend:
-    site.baseurl }}" />
+    <img alt="mountains" src="/images/mountains.jpg"/>
   </div>
   <div class="contents">
     <h3>Project Title</h3>
@@ -57,12 +56,10 @@ title: Portfolio
     </p>
     <a class="project-link" href="#">Check it out</a>
   </div>
-</div>
-<div class="user-projects">
-  <div class="images-left">
-    <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl
-    }}" />
   </div>
+  <div class="user-projects">
+  <div class="images-left">
+    <img alt="mountains" src="/images/skate.jpg"/>
   <div class="contents-right">
     <h3>Project Title</h3>
     <ul>
@@ -76,4 +73,5 @@ title: Portfolio
     </p>
     <a class="project-link" href="#">Check it out</a>
   </div>
+</div>
 </div>
