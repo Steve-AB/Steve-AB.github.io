@@ -1,0 +1,72 @@
+footer {
+  padding-bottom: 2em;
+  background: #aa076b; /* fallback for old browsers */
+  background: linear-gradient(
+    to top,
+    #61045f,
+    #aa076b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.grid-container-1 div {
+  font-family: ubuntu, open-sans, sans-serif;
+  color: #ffffff;
+  background-color: rgba(153, 6, 104, 0.1);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-bottom: 1.5em;
+}
+.icon-bar {
+  width: 100%;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 14%;
+  text-align: center;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  color: #fcbdfa;
+  border-bottom: 2px solid #fcbdfa;
+}
+
+@media screen and (max-width: 600px) {
+  .icon-bar a {
+    font-size: 18px;
+  }
+}
+
+h6 {
+  font-family: Ubuntu, open-sans, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #ad58aa;
+  padding: 10px;
+}
+
+.designed-by a {
+  text-decoration: none;
+  color: #ad58aa;
+}
+
+.designed-by a:hover {
+  color: #fcbdfa;
+  border-bottom: 2px solid #fcbdfa;
+}
