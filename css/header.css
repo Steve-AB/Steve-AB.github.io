@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-family: "Ubuntu", "Open-Sans", "Sans-Serif";
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background: #aa076b; /* fallback for old browsers */
+  background: linear-gradient(
+    to bottom,
+    #61045f,
+    #aa076b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-bottom: 1em;
+}
+
+#primary-navlinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px 24px;
+}
+
+.grid-container {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  display: grid;
+  width: 100%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  background-color: #a80569;
+  padding-bottom: 1em;
+}
+
+#secondary-navlinks a {
+  font-family: ubuntu, open-sans, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+}
+
+#secondary-navlinks a:hover {
+  border-bottom: 2px solid #fdcefc;
+  color: #fdcefc;
+}
+
+.logo {
+  cursor: pointer;
+  float: left;
+  padding: 20px 0px 0px 20px;
+}
+
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0px 24px 16px 0px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0;
+}
+.navlinks li a:hover {
+  border-bottom: 2px solid #fdcefc;
+  color: #fdcefc;
+}
