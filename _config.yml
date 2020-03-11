@@ -1,2 +1,4 @@
 name: Steve-AB, Ascribe Bureau
-	markdown: kramdown
+markkdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
