@@ -9,17 +9,17 @@ body {
 }
 h1 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   color: #62045f;
 }
 p {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.4em;
   color: #604c60;
 }
 ul.posts {
   margin: 20px auto 40px;
-  font-size: 18px;
+  font-size: 22px;
 }
 ul.posts li {
   list-style: none;
