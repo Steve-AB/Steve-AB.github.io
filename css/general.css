@@ -12,11 +12,17 @@ body {
   font-size: 40px;
   color: #62045f;
 }
-#grid-container-home p {
+#grid-container-home p a {
   font-size: 22px;
   line-height: 1.4em;
   text-align: justify;
   color: #604c60;
+}
+#sidebar-home h2 {
+  font-size: 22px;
+  line-height: 1.4em;
+  text-align: center;
+  color: #62045f;
 }
 ul.posts {
   margin: 20px auto 40px;
