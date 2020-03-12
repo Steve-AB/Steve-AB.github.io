@@ -1,19 +1,24 @@
 body {
   margin: 0;
 }
+#grid-container-home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px; 
+}
 h1 {
   font-family: "Ubuntu", sans-serif;
-  font-size: 3em;
+  font-size: 24px;
   color: #62045f;
 }
 p {
-  font-size: 1.5em;
+  font-size: 18px;
   line-height: 1.4em;
   color: #604c60;
 }
 ul.posts {
   margin: 20px auto 40px;
-  font-size: 1.5em;
+  font-size: 18px;
 }
 ul.posts li {
   list-style: none;
