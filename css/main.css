@@ -51,24 +51,6 @@ General styles
 .main-content {
 	background: white;	 
 }
-.button1 {
-	margin: 0;
-	padding: 1em 2em;
-	font-size: 20px;
-	font-weight: 500;
-	color: #62045f;
-	background: #fdcefc;
-	border: none;
-	text-decoration: none;
-	transition-duration: 0.3s;
- cursor: pointer;
-}
-.button1 :hover {
-	font-size: 20px;
-	color: #fdcefc;
-	background: transparent;
-	border-bottom: 2px solid #fdcefc;
-}
 .sidebar {
  background: #fdcefc; 
 }
