@@ -6,6 +6,28 @@ html {
 body {
 	margin: 0;	
 }
+.view_port {
+  background-color: #a80569;
+  height: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+.cylon_eye {
+  background-color: #fdcefc;
+  background-image: linear-gradient(to right,
+      rgba(168, 5, 105, .9) 25%,
+      rgba(168, 5, 105, .1) 50%,
+      rgba(168, 5, 105, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 30%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
 h2 {
  font-size: 36px;
 }
