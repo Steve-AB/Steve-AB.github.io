@@ -15,14 +15,14 @@ body {
       rgba(168, 5, 105, .1) 50%,
       rgba(168, 5, 105, .9) 75%);  
   height: 100%;
-  width: 25%;
+  width: 20%;
 
   -webkit-animation: 4s linear 0s infinite alternate move_eye;
           animation: 4s linear 0s infinite alternate move_eye;
 }
 
-@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
-        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+@-webkit-keyframes move_eye { from { margin-left: -10%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -10%; } to { margin-left: 100%; }  }
 h2 {
  font-size: 36px;
 }
