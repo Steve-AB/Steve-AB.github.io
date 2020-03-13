@@ -7,7 +7,7 @@ body {
  margin: 0;
  background: #ededed;	
 }
-.view_port {
+.stripe {
   background-color: #a80569;
   height: 10px;
   width: 100%;
@@ -18,10 +18,9 @@ body {
   background-image: linear-gradient(to right,
       rgba(168, 5, 105, .9) 25%,
       rgba(168, 5, 105, .1) 50%,
-      rgba(168, 5, 105, .9) 75%);
-  color: white;
+      rgba(168, 5, 105, .9) 75%);  
   height: 100%;
-  width: 30%;
+  width: 25%;
 
   -webkit-animation: 4s linear 0s infinite alternate move_eye;
           animation: 4s linear 0s infinite alternate move_eye;
