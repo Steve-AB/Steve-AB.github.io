@@ -12,14 +12,14 @@ h2 {
 h3 {
  font-size: 30px;
 }
-p {
+p, a {
  font-size: 20px;
 }
 h2, h3 {
 	margin: 0;
 	padding: 1em 1em;
 }
-p {
+p, a {
 	margin: 0;
 	padding: 1em 2em;
 }
@@ -28,7 +28,8 @@ General styles
 --------------------------------------------------------------*/
 .home-grid {
 	background: #ededed;
-	min-height: 100vh;
+ min-height: 100vh;
+ padding-top: 2em;
 }
 .main-content h2 {
  background: white;
