@@ -53,10 +53,10 @@ General styles
 	background: #ededed;
  min-height: 100vh; 
 }
-.main-content h2 {
+.main-content {
  background: white; 
 }
-.sidebar h3 {
+.sidebar {
  background: #fdcefc; 
 }
 /*--------------------------------------------------------------
