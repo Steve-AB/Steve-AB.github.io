@@ -58,6 +58,9 @@ General styles
 	color: #62045f;
 	background: transparent;
 	border: none;
+	text-decoration: none;
+	transition-duration: 0.4s;
+ cursor: pointer;
 }
 .button1 :hover {
 	font-size: 20px;
