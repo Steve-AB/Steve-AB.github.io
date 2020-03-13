@@ -55,11 +55,12 @@ General styles
 	margin: 0;
 	padding: 1em 2em;
 	font-size: 20px;
+	font-weight: 500;
 	color: #62045f;
-	background: transparent;
+	background: #fdcefc;
 	border: none;
 	text-decoration: none;
-	transition-duration: 0.4s;
+	transition-duration: 0.3s;
  cursor: pointer;
 }
 .button1 :hover {
