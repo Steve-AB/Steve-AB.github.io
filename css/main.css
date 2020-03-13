@@ -15,7 +15,11 @@ h3 {
 p {
  font-size: 20px;
 }
-h2, h3, p {
+h2, h3 {
+	margin: 0;
+	padding: 1em 1em;
+}
+p {
 	margin: 0;
 	padding: 1em 2em;
 }
@@ -26,11 +30,13 @@ General styles
 	background: #ededed;
 	min-height: 100vh;
 }
-.main-content {
-	background: white;
+.main-content h2 {
+ background: white;
+ color: #62045f;
 }
-.sidebar {
-	background: #fdcefc;
+.sidebar h3 {
+ background: #fdcefc;
+ color: #62045f;
 }
 /*--------------------------------------------------------------
 If no grid support, limit width to 50em and center align
