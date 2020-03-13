@@ -21,7 +21,7 @@ General styles
 	background: white;
 }
 .sidebar {
-	background: #FF7F66;
+	background: rgba(253, 206, 252, 0.8);
 }
 /*--------------------------------------------------------------
 If no grid support, limit width to 50em and center align
