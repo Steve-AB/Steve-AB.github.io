@@ -25,10 +25,3 @@ h6 {
 p {
  font-size: 20px;
 }
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 20px;
-}
-ul.posts li {
-  list-style: none;
-}
