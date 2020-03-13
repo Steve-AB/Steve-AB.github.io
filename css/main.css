@@ -1,0 +1,52 @@
+html {
+	font-family: Ubuntu, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust:     100%;
+}
+body {
+	margin: 0;	
+}
+h2, h3, p {
+	margin: 0;
+	padding: 1em 2em;
+}
+/*--------------------------------------------------------------
+General styles
+--------------------------------------------------------------*/
+.home-grid {
+	background: #ededed;
+	min-height: 100vh;
+}
+.main-content {
+	background: white;
+}
+.sidebar {
+	background: #FF7F66;
+}
+/*--------------------------------------------------------------
+If no grid support, limit width to 50em and center align
+--------------------------------------------------------------*/
+@supports not (display: grid) {
+	.home-grid {
+		max-width: 50em;
+		margin: 0 auto;
+	}
+}
+/*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+@media screen and (min-width: 600px) {
+	@supports (display: grid) {
+		.home-grid {
+			display: grid;
+			grid-template-columns: 1fr repeat(6, minmax(auto, 11em)) 1fr;
+			grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+		}
+		.main-content {
+			grid-column: 2/6;
+		}
+		.sidebar {
+			grid-column: 6/8;
+		}		
+	}
+}
