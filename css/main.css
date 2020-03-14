@@ -29,9 +29,6 @@ h2 {
 h3 {
  font-size: 30px;
 }
-p {
- font-size: 20px;
-}
 h2, h3 {
  margin: 0;
  color: #62045f;
@@ -40,10 +37,17 @@ h2, h3 {
 p {
 	margin: 0;
 	padding: 1em 2em;
+	font-size: 20px;
 }
-/*--------------------------------------------------------------
-General styles
---------------------------------------------------------------*/
+.link1 {
+	margin: 0;
+	padding: 1em 2em;
+	font-size: 20px;
+	color: #62045f;
+}
+.link1 :hover {
+	color: #fdcefc;
+}
 .home-grid {
 	background: #ededed;
  min-height: 100vh; 
