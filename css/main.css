@@ -44,9 +44,12 @@ p {
 	padding: 1em 2em;
 	font-size: 20px;
 	color: #62045f;
+	cursor: pointer;
+	text-decoration: none;
 }
 .link1 :hover {
 	color: #fdcefc;
+	text-decoration: underline;
 }
 .home-grid {
 	background: #ededed;
