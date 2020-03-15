@@ -1,0 +1,97 @@
+body {
+ margin: 0;
+ background: #ededed;	
+}
+.stripe {
+  background-color: #a80569;
+  height: 10px;
+  width: 100%;
+  
+}
+.cylon_eye {
+  background-color: #fdcefc;
+  background-image: linear-gradient(to right,
+      rgba(168, 5, 105, .9) 25%,
+      rgba(168, 5, 105, .1) 50%,
+      rgba(168, 5, 105, .9) 75%);  
+  height: 100%;
+  width: 30%;
+
+  -webkit-animation: 4s linear 0s infinite alternate move_eye;
+          animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -10%; } to { margin-left: 80%; }  }
+        @keyframes move_eye { from { margin-left: -10%; } to { margin-left: 80%; }  }
+h2 {
+ font-size: 36px;
+}
+h3 {
+ font-size: 30px;
+}
+h2, h3 {
+ margin: 0;
+ color: #62045f;
+	padding: 1em 1em;
+}
+p {
+	margin: 0;
+	padding: 1em 2em;
+	font-size: 20px;
+}
+code {
+ font-size: 20px;
+ font-style: italic;
+ background: black;
+ color: white;
+ padding: 10px;
+}
+.link1 {
+	margin: 0;
+	padding: 1em 2em;
+	font-size: 20px;
+	color: #62045f;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link1 :hover {
+	color: #fdcefc;
+	text-decoration: underline;
+}
+.home-grid {
+	background: #ededed;
+ min-height: 100vh; 
+}
+.main-content {
+	background: white;	 
+}
+.sidebar {
+ background: #fdcefc; 
+}
+/*--------------------------------------------------------------
+If no grid support, limit width to 50em and center align
+--------------------------------------------------------------*/
+@supports not (display: grid) {
+	.home-grid {
+		max-width: 50em;
+		margin: 0 auto;
+	}
+}
+/*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+@media screen and (min-width: 600px) {
+	@supports (display: grid) {
+		.home-grid {
+			display: grid;
+			grid-template-columns: 1fr repeat(6, minmax(auto, 11em)) 1fr;
+			grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
+		}
+		.main-content {
+			grid-column: 2/6;
+		}
+		.sidebar {
+			grid-column: 6/8;
+		}		
+	}
+}
