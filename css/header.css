@@ -77,3 +77,8 @@ header {
   border-bottom: 2px solid #fdcefc;
   color: #fdcefc;
 }
+@media screen and (max-width: 600px) {
+  .navlinks a {
+    float: none;
+    width: 100%;
+  }
