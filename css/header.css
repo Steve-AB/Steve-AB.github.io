@@ -30,38 +30,6 @@ header {
   padding: 16px 24px;
 }
 
-#menu-toggle {
-  display: block;
-  float: right;
-  color: white;
-  text-decoration: none;
-  padding: .75em;
-  border: 1px grey solid;
-  margin: 1em 1em 0 0;
-}
-
-#toggled {
-  display: none;
-}
-
-@media screen and (min-width: 41.25em) {
-  #menu-toggle {
-    display: none;
-  }
-  nav {
-    float: right;  
-  }
-  ul {
-    display: block !important;
-  }
-  li {
-    float: left;
-    padding: 1em;
-    border-top: none;
-  }
-
-}
-
 .grid-container {
   position: -webkit-sticky; /* Safari */
   position: sticky;
