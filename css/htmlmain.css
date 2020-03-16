@@ -18,13 +18,17 @@ p {
 	padding: 1em 2em;
 	font-size: 20px;
 }
-img {
-	align-items: center;
+.html-code1 {
+	display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
 	border: 2 solid #62045f;
 	border-radius: 5px;
 }
 mark {
 	background-color: #fdcefc;
+	color: #62045f; 
 }
 .html-grid {
 	background: #ededed;
