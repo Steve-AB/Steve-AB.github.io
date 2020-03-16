@@ -1,115 +1,36 @@
+* { box-sizing: border-box;}
+
 body {
- margin: 0;
- background: #ededed;	
+  font-family: Ubuntu, sans-serif;
+  background: #d9a7c7;
+background: linear-gradient(to bottom, #d9a7c7, #fffcdc); 
 }
-h2 {
- font-size: 36px;
-}
-h3 {
- font-size: 30px;
-}
-h2, h3 {
- margin: 0;
- color: #62045f;
-	padding: 1em 1em;
-}
-p {
-	margin: 0;
-	padding: 1em 2em;
-	font-size: 18px;
-}
-.port-grid {
-	padding-top: 20px;
-	background: #ededed;
- min-height: 100vh; 
-}
-.port-content {
-  background: white;
-}	 
-@supports not (display: grid) {
-	.port-grid {
-		max-width: 50em;
-		margin: 0 auto;
-	}
-}
-/*--------------------------------------------------------------
-CSS Grid layout for wider screens, when browser supports grid:
---------------------------------------------------------------*/
-@media screen and (min-width: 600px) {
-	@supports (display: grid) {
-		.port-grid {
-			display: grid;
-			grid-template-columns: 1fr repeat(6, minmax(auto, 11em)) 1fr;
-			grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
-		}
-		.port-content {
-			grid-column: 2/6;
-		}			
-	}
-}
-
-.tech {
-  margin: 10px;
-}
-
-.user {
-  text-align: center;
-  font-size: 60px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.user-details {
-  text-align: center;
-  margin: 5px auto;
-}
-
-#experise {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 90%;
-  max-width: 960px;
+.intro-container, .projects {
+  width: 80%;
   margin: 0 auto;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.box-container {
+  width: 80%; 
+  margin: 0 auto;  
+  display: flex;
+  background-color: #ffffff;
+  padding-left: 3%;  
 }
 
-.user-projects {
-  margin: 20px auto;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-h5 {
-  margin: 0;
-}
-li {
-  color: #000000;
-  font-size: 1.1rem;
+.box {
+  width: 30%;
+  margin-left: 3%;
+  background: #ad5389;  
+  background: linear-gradient(to bottom, #3c1053, #ad5389);
+  box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.3);
+  border-radius: 1em;
+  color: #fff;
+  padding: 1em;
 }
 
-.project-link {
-  display: inline-block;
-  margin: 10px 0px;
-  padding: 5px;
-  color: #000000;
-  background-color: transparent;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  text-align: center;
-  outline: none;
-  text-decoration: none;
-  cursor: pointer;
-  transition: color 0.3s ease-out, background-color 0.3s ease-out,
-    border-color 0.3s ease-out;
-}
-.project-link :hover {
-  background-color: purple;
-  border-color: purple;
-  color: #ffffff;
-  transition: color 0.3s ease-in, background-color 0.3s ease-in,
-    border-color 0.3s ease-in;
+.box:first-child {
+  margin-left: 0 ;
 }
