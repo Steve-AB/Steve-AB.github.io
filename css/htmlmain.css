@@ -18,11 +18,15 @@ p {
 	padding: 1em 2em;
 	font-size: 20px;
 }
-.home-grid {
+.html-code {
+	align-items: center;
+	border: 2 solid #62045f;
+}
+.html-grid {
 	background: #ededed;
  min-height: 100vh; 
 }
-.main-content {
+.html-content {
 	background: white;	 
 }
 .sidebar {
@@ -32,7 +36,7 @@ p {
 If no grid support, limit width to 50em and center align
 --------------------------------------------------------------*/
 @supports not (display: grid) {
-	.home-grid {
+	.html-grid {
 		max-width: 50em;
 		margin: 0 auto;
 	}
@@ -42,12 +46,12 @@ CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
 @media screen and (min-width: 600px) {
 	@supports (display: grid) {
-		.home-grid {
+		.html-grid {
 			display: grid;
 			grid-template-columns: 1fr repeat(6, minmax(auto, 11em)) 1fr;
 			grid-template-rows: minmax(1em, auto) 1fr auto minmax(1em, auto);
 		}
-		.main-content {
+		.html-content {
 			grid-column: 2/6;
 		}
 		.sidebar {
