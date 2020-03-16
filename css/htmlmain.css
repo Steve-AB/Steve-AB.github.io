@@ -21,6 +21,7 @@ p {
 .html-code {
 	align-items: center;
 	border: 2 solid #62045f;
+	border-radius: 5px;
 }
 .html-grid {
 	background: #ededed;
