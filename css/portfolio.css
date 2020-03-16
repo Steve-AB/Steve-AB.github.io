@@ -24,7 +24,8 @@ background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
   width: 30%;
   margin-left: 3%;
   background: #ad5389;  
-  background: linear-gradient(to bottom, #3c1053, #ad5389);
+  background: linear-gradient(to bottom,  #61045f,
+    #aa076b);
   box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.3);
   border-radius: 1em;
   color: #fff;
