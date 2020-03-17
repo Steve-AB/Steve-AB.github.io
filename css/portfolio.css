@@ -7,12 +7,26 @@ body {
   background: #fdcefc;
   background: linear-gradient(to bottom, #fdcefc, #fffcdc); 
 }
-.intro-container, .projects, .skills {
+.intro-container {
+  width: 80%;
+  margin: 20px auto 0px auto;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.skills {
   width: 80%;
   margin: 0 auto;
   background-color: #ffffff;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 1em;
+  padding-top: 2em;
+}
+.projects {
+  width: 80%;
+  margin: 0px auto 20px auto;
+  background-color: #ffffff;
+  padding-bottom: 1em;
+  padding-top: 2em;
 }
 .box-container {
   width: 80%; 
