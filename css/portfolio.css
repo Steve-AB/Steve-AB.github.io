@@ -4,8 +4,8 @@
 
 body {
   font-family: Ubuntu, sans-serif;
-  background: #d9a7c7;
-  background: linear-gradient(to bottom, #d9a7c7, #fffcdc); 
+  background: #fdcefc;
+  background: linear-gradient(to bottom, #fdcefc, #fffcdc); 
 }
 .intro-container, .projects, .skills {
   width: 80%;
@@ -24,11 +24,11 @@ body {
 .box {
   width: 30%;
   margin-left: 3%;
-  background: #ad5389;  
-  background: linear-gradient(to bottom, #3c1053, #ad5389);
+  background: #aa076b;  
+  background: linear-gradient(to bottom, #62045f, #aa076b);
   box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.3);
   border-radius: 1em;
-  color: #fff;
+  color: #ffffff;
   padding: 1em;
 }
 .box:first-child {
@@ -42,7 +42,7 @@ h2, h4 {
   text-align: center;
 }
 h1, h2, h3 {
-  color: #3c1053;
+  color: #62045f;
 }
 h4 {
   font-size: 22px;
@@ -74,7 +74,7 @@ img {
 }
 .footer {
       border-radius: 0 0 10px 10px;
-      color: #3c1053;      
+      color: #62045f;      
 }
 @media (min-width: 600px) {
   /* clearfix*/
