@@ -1,11 +1,13 @@
-* { box-sizing: border-box;}
+*, *:before, *:after { 
+  box-sizing: border-box;
+}
 
 body {
   font-family: Ubuntu, sans-serif;
   background: #d9a7c7;
-background: linear-gradient(to bottom, #d9a7c7, #fffcdc); 
+  background: linear-gradient(to bottom, #d9a7c7, #fffcdc); 
 }
-.intro-container, .projects {
+.intro-container, .projects, .skills {
   width: 80%;
   margin: 0 auto;
   background-color: #ffffff;
@@ -19,19 +21,111 @@ background: linear-gradient(to bottom, #d9a7c7, #fffcdc);
   background-color: #ffffff;
   padding-left: 3%;  
 }
-
 .box {
   width: 30%;
   margin-left: 3%;
   background: #ad5389;  
-  background: linear-gradient(to bottom,  #61045f,
-    #aa076b);
+  background: linear-gradient(to bottom, #3c1053, #ad5389);
   box-shadow: 2px 4px 8px 4px rgba(0,0,0,0.3);
   border-radius: 1em;
   color: #fff;
   padding: 1em;
 }
-
 .box:first-child {
   margin-left: 0 ;
+}
+h1, h3, p, a {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+h2, h4 {
+  text-align: center;
+}
+h1, h2, h3 {
+  color: #3c1053;
+}
+h4 {
+  font-size: 22px;
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.media > .title { grid-area: title; }
+.media > .img { grid-area: img; }
+.media > .content { grid-area: bd; }
+.media > .footer { grid-area: ft; }
+
+.media {
+  width: 90%;
+  grid-template-columns: minmax(150px, 1fr) 3fr;
+  margin-bottom: 2em;
+  margin-left: 5%;
+  border: 2px solid #3c1053;
+  border-radius: 10px;
+  padding: 10px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-areas:
+    "title"
+    "img"
+    "bd"
+    "ft";  
+}
+.footer {
+      border-radius: 0 0 10px 10px;
+      color: #3c1053;      
+}
+@media (min-width: 600px) {
+  /* clearfix*/
+  .media:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .media > .media {
+    margin-left: 160px;
+    clear: both;
+  }
+
+  .media .img {
+    float: left;
+    margin: 0 10px 0 0;
+    width: 150px;
+  }
+  
+  .media .footer {
+    background-color: #fdcefc;
+    padding: 10px;
+  }
+
+  .media > * {
+    margin: 0 0 0 160px;
+  }
+
+  @supports(display: grid ) {
+    /* override */
+    .media > * {
+      margin: 0;
+    }
+    .media .img {
+      width: auto;
+      margin: 0;
+    }
+    .media:after {
+      content: none;
+    }
+
+    .media {
+      display: grid;
+      grid-column-gap: 20px;
+      grid-template-columns: 150px 3fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "img title"
+        "img bd"
+        "ft ft";
+    }
+  }
 }
