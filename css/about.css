@@ -1,0 +1,92 @@
+html, body {
+  height: 100vh;
+  width: 100%; 
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;  
+  max-width: 100%;
+}
+.container {  
+  background-color: rgba(98, 4, 95, 0.2);
+  background-color: white;
+  overflow-y: auto;
+  height: 100vh;
+  max-width: 100%;
+}
+.about-panel {  
+  position: absolute;
+  top: 0;
+	right: 0;
+}
+.about-content {
+  max-width: 50%;
+  width: 50%;
+	float: left;
+	margin-left: 2em;	
+  padding: 2em 2em;
+	text-align: justify;
+  text-justify: inter-word;
+  background: white;
+  color: #31022f;
+}
+.about-panel {
+  max-width: 50%;
+  width: 45%;	
+}
+.about-panel .photo-about {	
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+h1 { 
+  color: #62045f;
+  text-align: center;  
+  font-size: 70px;
+  font-weight: 400;
+	margin-bottom: 0.5em;
+  margin-top: 0.25em;
+}
+.Synopsis-highlight {
+  font-weight: 500;
+  font-size: 18px;
+	text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5em;
+  width: 100%;
+  color: #62045f;
+}
+.about-info {
+  font-family: "Ubuntu" sans-serif;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  color: white;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 1.2vw;
+}
+.highlights {
+  margin-top: 25px;
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+  height: 130px;
+}
+a {  
+  font-weight: 300;
+  font-size: 1.2vw;
+  color: #fdcefc;
+}
+.photo-about {
+  background: url(https://i.postimg.cc/2SRgtMfV/Outwiththedog-BW.jpg) no-repeat center center;
+  background-size: cover;  
+}
+.photo-filter {
+  position: relative;  
+  background-color: rgba(255, 30, 173, 0.2); 
+  width: 100%;
+  height: 100%;
+}
