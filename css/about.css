@@ -35,8 +35,7 @@ body {
 }
 .about-panel {  
   position: absolute;
-  top: 0;
-	right: 0;
+  
 }
 .about-content {
   max-width: 50%;
@@ -63,13 +62,13 @@ h1 {
   text-align: center;  
   font-size: 70px;
   font-weight: 400;
-	margin-bottom: 0.5em;
+	 margin-bottom: 0.5em;
   margin-top: 0.25em;
 }
 .Synopsis-highlight {
   font-weight: 500;
   font-size: 18px;
-	text-align: justify;
+	 text-align: justify;
   text-justify: inter-word;
   line-height: 1.5em;
   width: 100%;
