@@ -93,6 +93,9 @@ h1 {
   margin-bottom: 100px;
   height: 130px;
 }
+h4, h5 {
+ color: white;
+}
 a {  
   font-weight: 300;
   font-size: 1.2vw;
