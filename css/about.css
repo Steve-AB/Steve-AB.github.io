@@ -81,7 +81,9 @@ a {
   color: #fdcefc;
 }
 .photo-about {
-  background: url(https://i.postimg.cc/2SRgtMfV/Outwiththedog-BW.jpg) no-repeat center center;
+  background-image: url(/images/Outwiththedog-BW.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;  
 }
 .photo-filter {
