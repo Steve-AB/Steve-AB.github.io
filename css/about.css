@@ -29,10 +29,14 @@ h1 {
   margin-bottom: 0.5em;
   margin-top: 0.25em;
 }
-h2, h3 {
-  margin-top: 2em;
+h2 {
+  margin-bottom: 2em;
   color: #ffffff;
-}  
+}
+h3 {
+  line-height: 2;
+  color: #ffffff;
+}
 .highlight {
   line-height: 1.4;
   color: #62045f;
@@ -60,8 +64,7 @@ h2, h3 {
   font-weight: 400;
   text-decoration: none;
   color: #fdcefc;
-  margin-top: 1em;
-  padding-bottom: 1em;
+  margin-top: 2em;  
 }
 .hero-text button {
   margin-top: 2em;
