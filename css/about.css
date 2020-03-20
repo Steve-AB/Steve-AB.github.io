@@ -21,7 +21,7 @@ body {
   line-height: 1.4;
   color: #666666;
   text-align: justify;
-  margin: 2em 3em;  
+  margin: 3em 3em;  
 }
 h1 {
   text-align: center;
@@ -34,7 +34,7 @@ h2 {
   color: #ffffff;
 }
 h3 {
-  line-height: 2;
+  line-height: 1.5;
   color: #ffffff;
 }
 .highlight {
@@ -64,7 +64,7 @@ h3 {
   font-weight: 400;
   text-decoration: none;
   color: #fdcefc;
-  margin-top: 2em;  
+  margin-top: 3em;  
 }
 .hero-text button {
   margin-top: 2em;
