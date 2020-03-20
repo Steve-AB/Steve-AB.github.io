@@ -22,6 +22,7 @@ body {
   color: #666666;
   text-align: justify;
   margin: 0 3em;
+  padding-bottom: 2em;
 }
 h1 {
   text-align: center;
@@ -60,6 +61,7 @@ h2, h3 {
   font-weight: 400;
   text-decoration: none;
   color: #fdcefc;
+  padding-top 1em;
   padding-bottom: 1em;
 }
 .hero-text button {
