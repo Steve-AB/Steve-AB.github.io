@@ -26,6 +26,9 @@ h1 {
   text-align: center;
   color: #62045f;
 }
+h2, h3 {
+  color: #ffffff;
+}  
 .highlight {
   color: #62045f;
   font-weight: 600;
