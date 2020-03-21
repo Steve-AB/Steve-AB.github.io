@@ -19,6 +19,15 @@ body {
 	color:#777;	
 }
 
+.hero-image {
+  background-image: linear-gradient(rgba(98, 4, 95, 0.5), rgba(98, 4, 95, 0.2)), url("/images/Map2.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .container {
 	max-width:500px;
   width:100%;  
